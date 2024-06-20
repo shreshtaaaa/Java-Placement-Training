@@ -31,8 +31,10 @@ import java.util.Scanner;
 public class migratoryBirds {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        System.out.println("enter no of elements");
              int n=sc.nextInt();
              int[] birds=new int[n];
+             System.out.println("enter " +n+ " elements");
              for(int i=0;i<n;i++){
                  birds[i]=sc.nextInt();
              }

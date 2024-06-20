@@ -2,7 +2,6 @@
 //business logic class.. this wont be available in the memory
 
 import java.util.Scanner;
-
 class display{
     int show(int x,int y){
     //System.out.println("hello world");
@@ -17,6 +16,7 @@ class display{
    }
    
 //execution logic class(main class/driver code)
+
 class first{
     public static void main(String abc[]){
         //System.out.println("hello");

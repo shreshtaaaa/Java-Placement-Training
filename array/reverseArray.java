@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class reverseArray {
     public static void main(String args[]){
         Scanner s=new Scanner(System.in);
+        System.out.println("enter no of elements");
         int n=s.nextInt();
         int[] arr=new int[n];
+        System.out.println("enter " +n+ " elements");
         for (int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
@@ -19,6 +21,7 @@ public class reverseArray {
             start++;
             end--;
         }
+        System.out.println("reversed array is: ");
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }

@@ -1,0 +1,5 @@
+jakarta package
+javax package
+servlet
+tomcat->lib->servlet api jar file-> set path for this jar file
+system variable, user variable

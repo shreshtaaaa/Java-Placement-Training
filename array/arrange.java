@@ -7,8 +7,10 @@ import java.util.Scanner;
 public class arrange {
     public static void main(String args[]){
        Scanner s=new Scanner(System.in);
+       System.out.println("enter n");
         int n=s.nextInt();
         int[] arr=new int[n];
+        System.out.println("enter " +n+ " elements");
         for (int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }

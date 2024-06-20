@@ -1,6 +1,7 @@
 //check whether a binary tree is a bst or not
 //bst->elements in left is less than parent.. and in right is greater than parent
 //to find bst.. take max of left branch and min of right branch.. compare that with the root
+
 class Node{
     int data;
     Node left;;

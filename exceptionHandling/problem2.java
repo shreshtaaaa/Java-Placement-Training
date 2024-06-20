@@ -1,6 +1,5 @@
 //user defined exceptions(custom exception)
-//classes already available-exception,arithmeticexception,iuexception,filenotfoundexception,
-//arrayindexoutofboundexception-> pre defined exceptions
+//classes already available-exception,arithmeticexception,iuexception,filenotfoundexception,arrayindexoutofboundexception-> pre defined exceptions
 
 import java.util.*;
 class InvalidAge extends Exception{

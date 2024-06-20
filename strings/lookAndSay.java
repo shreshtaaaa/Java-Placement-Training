@@ -39,5 +39,3 @@ public class lookAndSay {
         return nextSequence;
     }
 }
-
-// abgdhahdBdkashdlayyybun

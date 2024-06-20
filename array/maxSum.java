@@ -1,3 +1,10 @@
+//contiguous subarray with max sum
+//4 5 6 2 8 3
+//4 5 6 2.. is the subarray
+//4 5 2 8.. isnt a subarray
+//-4 5 -6 2 -8 3
+//5 -6 2 is the max subarray
+
 import java.util.Scanner;
 
 public class maxSum {
@@ -6,6 +13,7 @@ public class maxSum {
        System.out.println("enter no of elements");
         int n=s.nextInt();
         int[] arr=new int[n];
+        System.out.println("enter " +n+ " elements");
         for (int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
@@ -22,9 +30,3 @@ public class maxSum {
         }
         System.out.println("maximux sum is: "+overallMax);
 }}
-//contiguous subarray with max sum
-//4 5 6 2 8 3
-//4 5 6 2.. is the subarray
-//4 5 2 8.. isnt a subarray
-//-4 5 -6 2 -8 3
-//5 -6 2 is the max subarray

@@ -1,4 +1,4 @@
-
+//traversals
 
 class Node{
     int data;

@@ -1,0 +1,5 @@
+//write a java program to create a new file and print the output as "file created successfully" 
+//write a java prgm to get file length(size) and file path o/p-> file path is: /home/file1.txt file size is: 0 bytes
+//write a pgm to check file can be read or not in java o/p-> fileE: \A.txt can be read
+//to check leap year
+//no of days in the given month of any year

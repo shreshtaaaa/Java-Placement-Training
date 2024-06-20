@@ -32,7 +32,7 @@ class Node {
     }
 }
 
-class converttoBST{
+class convertToBST{
     public static void main(String[] args) {
         Node root = new Node(10);
         root.left = new Node(20);
